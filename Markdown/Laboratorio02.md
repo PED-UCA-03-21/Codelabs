@@ -1,6 +1,7 @@
 author: DouglasHdezT
 summary: Ejercicios de Listas con enlace simple en C++
 id: laboratorio-02
+URL: https://ped-uca-03-21.github.io/Codelabs/
 tags: laboratorio,diy
 categories: C++
 environments: Web
@@ -41,19 +42,19 @@ A continuación se listan los ejercicios a realizar durante la sesipon de labora
 
 1. A partir de una lista con enlaces simples, cree un programa que pida datos al usuario de forma indefinida (implementar algún método de paro), e ingrese estos valores dentro de la lista. Muestre los valores ingresados.
    
-2. Cree una función que, dada una lista con enlaces simples, devuelva una nueva lista con los mismos elementos pero en orden invertido. Muestre los valores de ambas listas.
-
-3. Cree una función *toString*, que tome todos los elementos de una lista dinámica y retorne un string que incluya estos elementos con algún formato en específico.
+2. Cree una función *toString*, que tome todos los elementos de una lista dinámica y retorne un string que incluya estos elementos con algún formato en específico.
    
-4. Cree una función que tome todos los elementos de una lista dinámica y retorne la suma de todos sus elementos.
+3. Cree una función que tome todos los elementos de una lista dinámica y retorne la suma de todos sus elementos.
 
-5. Cree una función que, dada dos listas dinámicas con enlace simple, concatene la segunda al final de la primera.
+4. Cree una función que, dada dos listas dinámicas con enlace simple, concatene la segunda al final de la primera.
+
+5. Cree una función que, dada una lista con enlaces simples, devuelva una nueva lista con los mismos elementos pero en orden invertido. Muestre los valores de ambas listas.
 
 ## Tarea de laboratorio
 
 Solucione el siguiente problema y envielo a través de la plataforma virtual del curso en el tiempo indicado:
 
-Cree una función que, dada dos listas dínamicas con enlace simple, intercale los valores de la segunda lista en los nodos de la primera.
+Cree una función que, dada dos listas dínamicas con enlace simple, intercale los valores de la segunda lista entre los nodos de la primera.
 
 ```console
 E.G 1
