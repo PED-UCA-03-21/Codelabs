@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2022-01-20T16:25:30-06:00",
+  "id": "laboratorio-02",
+  "duration": 90,
+  "title": "Listas lineales simples - C++",
+  "summary": "Ejercicios de Listas con enlace simple en C++",
+  "source": ".\\Markdown\\Laboratorio02.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "c++"
+  ],
+  "tags": [
+    "diy",
+    "laboratorio",
+    "web"
+  ],
+  "feedback": "https://github.com/PED-UCA-03-21/Codelabs/issues",
+  "url": "laboratorio-02"
+}
