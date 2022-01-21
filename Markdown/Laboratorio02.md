@@ -54,7 +54,7 @@ A continuación se listan los ejercicios a realizar durante la sesipon de labora
 
 Solucione el siguiente problema y envielo a través de la plataforma virtual del curso en el tiempo indicado:
 
-Cree una función que, dada dos listas dínamicas con enlace simple, intercale los valores de la segunda lista entre los nodos de la primera.
+Cree una función que, dada dos listas dínamicas con enlace simple, intercale los valores de la segunda lista entre los nodos de la primera. Retorne una nueva lista.
 
 ```console
 E.G 1
