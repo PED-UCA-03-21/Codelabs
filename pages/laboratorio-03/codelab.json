@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2022-01-27T10:54:00-06:00",
+  "id": "laboratorio-03",
+  "duration": 90,
+  "title": "Pilas y Colas - C++",
+  "summary": "Ejercicios de Pilas y Colas en C++",
+  "source": ".\\Markdown\\Laboratorio03.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "c++"
+  ],
+  "tags": [
+    "diy",
+    "laboratorio",
+    "web"
+  ],
+  "feedback": "https://github.com/PED-UCA-03-21/Codelabs/issues",
+  "url": "laboratorio-03"
+}
