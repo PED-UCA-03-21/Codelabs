@@ -3,12 +3,12 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2022-01-28T01:14:11-06:00",
-  "id": "laboratorio-03",
+  "updated": "2022-01-28T00:07:59-06:00",
+  "id": "laboratorio-04",
   "duration": 90,
-  "title": "Listas lineales simples - C++ - II",
-  "summary": "Ejercicios de Listas con enlace simple en C++ - II",
-  "source": ".\\Markdown\\Laboratorio03.md",
+  "title": "Pilas y Colas - C++",
+  "summary": "Ejercicios de Pilas y Colas en C++",
+  "source": ".\\Markdown\\Laboratorio04.md",
   "theme": "",
   "status": [
     "published"
@@ -22,5 +22,5 @@
     "web"
   ],
   "feedback": "https://github.com/PED-UCA-03-21/Codelabs/issues",
-  "url": "laboratorio-03"
+  "url": "laboratorio-04"
 }

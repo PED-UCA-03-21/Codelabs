@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta name="theme-color" content="#4F7DC9">
   <meta charset="UTF-8">
-  <title>Listas lineales simples - C&#43;&#43; - II</title>
+  <title>Pilas y Colas - C&#43;&#43;</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
@@ -22,8 +22,8 @@
 <body>
   <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
   <google-codelab codelab-gaid=""
-                  id="laboratorio-03"
-                  title="Listas lineales simples - C&#43;&#43; - II"
+                  id="laboratorio-04"
+                  title="Pilas y Colas - C&#43;&#43;"
                   environment="web"
                   feedback-link="https://github.com/PED-UCA-03-21/Codelabs/issues">
     
@@ -36,6 +36,8 @@
 <ul>
 <li>Listas dinámicas</li>
 <li>Listas con enlace simple</li>
+<li>Pilas</li>
+<li>Colas</li>
 </ul>
 <h2 is-upgraded>Requisitos</h2>
 <ul>
@@ -49,53 +51,18 @@
       </google-codelab-step>
     
       <google-codelab-step label="Ejercicios a realizar" duration="80">
-        <p>A continuación se listan los ejercicios a realizar durante la sesión de laboratorio.</p>
-<ol type="1">
-<li>Cree la estructura (Estructura y clase) necesaria para manipular una lista con enlaces simples. Además, añada los siguientes métodos para la manipulación de las mismas:<ul>
-<li>Insertar un valor al principio</li>
-<li>Insertar al final</li>
-<li><em>toString</em></li>
-</ul>
-</li>
-<li>Cree una función que retorne un valor booleano que represente si la lista está vacía o no.</li>
-<li>Cree una función que busque un valor (pedido por el usuario) en la lista, y devuelva la posición en la que se encuentra la primera aparición en la lista.</li>
-<li>Cree una función que elimine un nodo de la lista, a partir de un valor ingresado por el usuario.</li>
-<li>Cree una variante de la clase principal de la lista, con la diferencia que tendrá un único método para insertar, y este ingresará nodos de forma que ningún valor dentro de la lista se repita. Si se inserta un valor repetido, la lista simplemente no se alterará.</li>
-</ol>
-
-
-      </google-codelab-step>
-    
-      <google-codelab-step label="Tarea de laboratorio" duration="0">
-        <p>Solucione el siguiente problema y envielo a través de la plataforma virtual del curso en el tiempo indicado:</p>
-<p>Cree una variante de la clase principal de la lista, con la diferencia que tendrá un único método para insertar, y este ingresará los nodos de forma que, un nuevo valor se insertará tanto al incio como al final de la lista.</p>
-<pre>Lista: 
-
-Insertar: 3
-Lista: 3
-
-Insertar: 1
-Lista: 1 -&gt; 3 -&gt; 1
-
-Insertar: 5
-Lista: 5 -&gt; 1 -&gt; 3 -&gt; 1 -&gt; 5
-
-Insertar: 8
-Lista: 8 -&gt; 5 -&gt; 1 -&gt; 3 -&gt; 1 -&gt; 5 -&gt; 8
-
-Insertar: 0
-Lista: 0 -&gt; 8 -&gt; 5 -&gt; 1 -&gt; 3 -&gt; 1 -&gt; 5 -&gt; 8 -&gt; 0
-</pre>
-<aside class="warning"><p>   Recuerda implementar algún método para mostrar los elementos de la lista de forma ordenada. </p>
-</aside>
-<aside class="special"><p>   Puedes implementar y utlizar funciones vistas en clases, o en otras sesiones de laboratorio. E.G. getTail, getHead, toString, etc </p>
+        <p>A continuación se listan los ejercicios a realizar durante la sesipon de laboratorio.</p>
+<p>Una compañia de seguridad informática le ha solicitado que ponga a prueba su nuevo software de protección a la información, el cual consiste en <em>n</em> capas de protección sobre el sistema principal, una sobre la otra. Usted ha asegurado encontrar una vulnerabilidad en el sistema, y puede pasar sobre cada capa (1 por 1) en un tiempo <em>t</em> determinado a través de la metodología <em>bruteforce</em>.</p>
+<p>Cuando se pone a prueba el sistema, logras identificar que, luego de vulnerar la primera capa del sistema, cada 10 segundos se añade una nueva capa al inicio que se tarda entre 1 y 5 segundos en resolver y retomar el trabajo anterior.</p>
+<p>Cree un programa que simule este escenerio donde, se posea una estructura que represente cada capa (id, tiempo de vida, etc), una pila o <em>stack</em> que represente la disposición del sistema de protección a la información, y una cola o <em>queue</em> donde se almacenen las capas vulneradas en el orden en las que se resuelvan.</p>
+<aside class="warning"><p>   - Utiliza la función sleep de la librería stdlib.h (Windows.h para windows) para simular el contador del programa.   - Ingresa de forma dinámica los valores iniciales de las primeras capas.   - Al final de la ejecucuión muestra la lista de todas las capas en el orden en las que fueron vulneradas </p>
 </aside>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Soluciones" duration="0">
-        <p>Las soluciones propuestas de los ejercicios se encuentran en el siguiente enlace: <a href="https://github.com/PED-UCA-03-21/Laboratorio-02" target="_blank">Repositorio</a></p>
+        <p>Las soluciones propuestas de los ejercicios se encuentran en el siguiente enlace: <a href="https://github.com/PED-UCA-03-21/Laboratorio-03" target="_blank">Repositorio</a></p>
 <aside class="special"><p>   Recuerda realizar los ejercicios por tu cuenta. Es la forma mas efectiva de aprender. </p>
 </aside>
 

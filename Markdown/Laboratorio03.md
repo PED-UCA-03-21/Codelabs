@@ -1,5 +1,5 @@
 author: DouglasHdezT
-summary: Ejercicios de Pilas y Colas en C++
+summary: Ejercicios de Listas con enlace simple en C++ - II
 id: laboratorio-03
 URL: https://ped-uca-03-21.github.io/Codelabs/
 tags: laboratorio,diy
@@ -8,7 +8,7 @@ environments: Web
 status: Published
 feedback link: https://github.com/PED-UCA-03-21/Codelabs/issues
 
-# Pilas y Colas - C++
+# Listas lineales simples - C++ - II
 
 ## Introducción
 Duration: 0:10:00
@@ -25,8 +25,6 @@ Durante la realización de este laboratorio se reforzarán temas relacionados co
 
 - Listas dinámicas
 - Listas con enlace simple
-- Pilas
-- Colas
 
 ### Requisitos
 
@@ -40,23 +38,58 @@ Durante la realización de este laboratorio se reforzarán temas relacionados co
 ## Ejercicios a realizar
 Duration: 1:20:00
 
-A continuación se listan los ejercicios a realizar durante la sesipon de laboratorio.
+A continuación se listan los ejercicios a realizar durante la sesión de laboratorio.
 
-Una compañia de seguridad informática le ha solicitado que ponga a prueba su nuevo software de protección a la información, el cual consiste en *n* capas de protección sobre el sistema principal, una sobre la otra. Usted ha asegurado encontrar una vulnerabilidad en el sistema, y puede pasar sobre cada capa (1 por 1) en un tiempo *t* determinado a través de la metodología *bruteforce*. 
+1. Cree la estructura (Estructura y clase) necesaria para manipular una lista con enlaces simples. Además, añada los siguientes métodos para la manipulación de las mismas:
+   - Insertar un valor al principio
+   - Insertar al final
+   - *toString*
 
-Cuando se pone a prueba el sistema, logras identificar que, luego de vulnerar la primera capa del sistema, cada 10 segundos se añade una nueva capa al inicio que se tarda entre 1 y 5 segundos en resolver y retomar el trabajo anterior.
+2. Cree una función que retorne un valor booleano que represente si la lista está vacía o no.  
 
-Cree un programa que simule este escenerio donde, se posea una estructura que represente cada capa (id, tiempo de vida, etc), una pila o *stack* que represente la disposición del sistema de protección a la información, y una cola o *queue* donde se almacenen las capas vulneradas en el orden en las que se resuelvan. 
+3. Cree una función que busque un valor (pedido por el usuario) en la lista, y devuelva la posición en la que se encuentra la primera aparición en la lista.
+   
+4. Cree una función que elimine un nodo de la lista, a partir de un valor ingresado por el usuario.
+
+5. Cree una variante de la clase principal de la lista, con la diferencia que tendrá un único método para insertar, y este ingresará nodos de forma que ningún valor dentro de la lista se repita. Si se inserta un valor repetido, la lista simplemente no se alterará.
+
+
+## Tarea de laboratorio
+
+Solucione el siguiente problema y envielo a través de la plataforma virtual del curso en el tiempo indicado:
+
+Cree una variante de la clase principal de la lista, con la diferencia que tendrá un único método para insertar, y este ingresará los nodos de forma que, un nuevo valor se insertará tanto al incio como al final de la lista.
+
+```console
+Lista: 
+
+Insertar: 3
+Lista: 3
+
+Insertar: 1
+Lista: 1 -> 3 -> 1
+
+Insertar: 5
+Lista: 5 -> 1 -> 3 -> 1 -> 5
+
+Insertar: 8
+Lista: 8 -> 5 -> 1 -> 3 -> 1 -> 5 -> 8
+
+Insertar: 0
+Lista: 0 -> 8 -> 5 -> 1 -> 3 -> 1 -> 5 -> 8 -> 0
+```
 
 <aside class="negative">
-  - Utiliza la función sleep de la librería stdlib.h (Windows.h para windows) para simular el contador del programa.
-  - Ingresa de forma dinámica los valores iniciales de las primeras capas.
-  - Al final de la ejecucuión muestra la lista de todas las capas en el orden en las que fueron vulneradas
+  Recuerda implementar algún método para mostrar los elementos de la lista de forma ordenada.
+</aside>
+
+<aside class="positive">
+  Puedes implementar y utlizar funciones vistas en clases, o en otras sesiones de laboratorio. E.G. getTail, getHead, toString, etc
 </aside>
 
 ## Soluciones
 
-Las soluciones propuestas de los ejercicios se encuentran en el siguiente enlace: [Repositorio](https://github.com/PED-UCA-03-21/Laboratorio-03)
+Las soluciones propuestas de los ejercicios se encuentran en el siguiente enlace: [Repositorio](https://github.com/PED-UCA-03-21/Laboratorio-02)
 
 <aside class="positive">
   Recuerda realizar los ejercicios por tu cuenta. Es la forma mas efectiva de aprender.
