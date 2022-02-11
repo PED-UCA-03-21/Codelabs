@@ -3,12 +3,12 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2022-02-10T23:15:36-06:00",
-  "id": "laboratorio-05",
-  "duration": 70,
-  "title": "Listas simples circulares",
-  "summary": "Listas simples circulares",
-  "source": ".\\Markdown\\Laboratorio05.md",
+  "updated": "2022-02-10T19:14:01-06:00",
+  "id": "laboratorio-06",
+  "duration": 90,
+  "title": "Pilas y Colas - C++",
+  "summary": "Ejercicios de Pilas y Colas en C++",
+  "source": ".\\Markdown\\Laboratorio06.md",
   "theme": "",
   "status": [
     "published"
@@ -22,5 +22,5 @@
     "web"
   ],
   "feedback": "https://github.com/PED-UCA-03-21/Codelabs/issues",
-  "url": "laboratorio-05"
+  "url": "laboratorio-06"
 }
