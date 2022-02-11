@@ -89,7 +89,7 @@ Lista: 0 -> 8 -> 5 -> 1 -> 3 -> 1 -> 5 -> 8 -> 0
 
 ## Soluciones
 
-Las soluciones propuestas de los ejercicios se encuentran en el siguiente enlace: [Repositorio](https://github.com/PED-UCA-03-21/Laboratorio-02)
+Las soluciones propuestas de los ejercicios se encuentran en el siguiente enlace: [Repositorio](https://github.com/PED-UCA-03-21/Laboratorio-03)
 
 <aside class="positive">
   Recuerda realizar los ejercicios por tu cuenta. Es la forma mas efectiva de aprender.

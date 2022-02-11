@@ -48,3 +48,11 @@ Cree la estructura y la clase necesaria para representar una lista simple circul
 - Mostrar todos los elementos
 - Mostrar 1 elemento a partir de un indice
 - Borrar toda la lista (Garantizar la limpieza de memoria)
+
+## Soluciones
+
+Las soluciones propuestas de los ejercicios se encuentran en el siguiente enlace: [Repositorio](https://github.com/PED-UCA-03-21/Laboratorio-05)
+
+<aside class="positive">
+  Recuerda realizar los ejercicios por tu cuenta. Es la forma mas efectiva de aprender.
+</aside>
